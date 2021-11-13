@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Lauran Hunt",
+      "text": "This water bottle is great. I’ve lost a few and replaced them every time. The product is not a fake, I checked Hydro Flask for the specs. They have redone the design a little for the lid. There is also another review below stating it was fake because of the missing logo on the bottle. That person had not removed the sticker.",
+      "rate": 5,
+      "img": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80"
+    },
+    {
+      "name": "Katina Hawkins",
+      "text": "I just bought this and I love the bottle, but after a few washes the straw has split on both ends and will not fit the bottle anymore. It came with two straws though.",
+      "rate": 4.1,
+      "img": "https://i.ibb.co/T8NVvpy/jenny-marvin-HYvc-Yh-BNo0-unsplash.jpg"
+    },
+    {
+      "name": "Roney Hash",
+      "text": "I was nervous ordering this as I read other reviews where people received damage products. I ordered anyway because I couldn’t find this color in my local stores. It’s perfect new with no dents!",
+      "rate": 5,
+      "img": "https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=327&q=80"
+    },
+    {
+      "name": "Jassey Moon",
+      "text": "Works great. I would give it a five but the Hydro cell is the exact same product and $25 cheaper. Probably comes from the same factory with a different brand name. I purchased both and the temperature readings using the same amount of ice and same amount of water, sitting in the shade or sitting in the sun both keep the exact same temperature except one is $25 cheaper. So save your money and buy the Hydro cell, but again it is a great product just a more expensive one.",
+      "rate": 4,
+      "img": "https://images.unsplash.com/photo-1573600073955-f15b3b6caab7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=415&q=80"
+    },
+    {
+      "name": "Rakib Hassan",
+      "text": "Not giving 5 stars bc to me it’s not the easiest to clean. Even though it’s bigger than I expected I do love it and it keeps my water COLD all day long after filling it from my cooler. Love thermo flasks!",
+      "rate": 4.2,
+      "img": "https://i.ibb.co/svZfJ6q/wells-chan-l3hwxn-GJXn8-unsplash.jpg"
+    },
+    {
+      "name": "Nirob Princeless",
+      "text": "Great bottle but it’s HUGE. Be careful about which size you buy. We bought this by accident. It won’t fit in my car cup holders or car door pocket or my peloton bottle holder. It’s perfect if you want a large bottle next to you on your desk. We will be re-ordering the smaller size",
+      "rate": 4.5,
+      "img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+      "name": "Katherine Armsdill",
+      "text": "Have a \"childrens Hydro Flask\" and love it but decided to move up. But, beware this model does not fit the cup holder in my 2019 Nissan Rogue cup holder. Return the flask or buy adjustable cup holder? Invested in an insert that says it will fit this model Hydro Flask",
+      "rate": 4.5,
+      "img": "https://images.unsplash.com/photo-1615439244365-b9b37c99f29c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=696&q=80"
+    },
+    {
+      "name": "Meraj King",
+      "text": "My wife and I bought two of these (32oz & 40oz) at our local Whole Foods and loved them. We later bought aftermarket/ 3rd party lids with built in straws and after a few weeks of using them thought that they'd be a great present for my parents. I don't think I ever used a \"sippy\" cup as a toddler but I can totally see the advantages of having a 40oz bottle that keeps liquids (with ice) cold for 24+ hours and not having to tilt your head back to finish drinking.",
+      "rate": 3.3,
+      "img": "https://images.unsplash.com/photo-1484515991647-c5760fcecfc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=749&q=80"
+    }
+  ]

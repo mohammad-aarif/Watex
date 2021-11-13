@@ -1,0 +1,24 @@
+.promo-banner{
+    background: url('https://i.ibb.co/vdjxp0d/mobile-img-x2-1.jpg');
+    background-position: center;
+    background-size: cover;
+    max-height: 80vh;
+    min-height: 80vh;
+}
+.promo-details{
+    background:linear-gradient(45deg, rgba(12, 5, 107, 0.5), rgba(37, 10, 134, 0.4)), url('https://i.ibb.co/pQK1pP9/20200914-hf-hardgoods-03068-1800x1800-11.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+}
+.sub-promo{
+    height: 50%;
+    width: 50%;
+    padding: 0;
+}
+.sub-promo img{
+    width: 330px;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+}
