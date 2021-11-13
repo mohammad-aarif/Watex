@@ -1,3 +1,8 @@
 .item-details{
     background-color: rgb(39, 47, 117);
 }
+@media only screen and (max-width: 600px) {
+    .w-25{
+        width: 90vw !important;
+    }
+  }
