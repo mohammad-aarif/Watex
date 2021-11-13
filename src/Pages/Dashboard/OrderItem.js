@@ -18,12 +18,20 @@ const OrderItem = (props) => {
           <div className="col-md-2">
             <h6>{date}</h6>
           </div>
-          <div className="col-md-2 text-warning">
+          {status === 'Pending' &&<> <div className="col-md-2 text-warning">
             <h6>{status}</h6>
           </div>
           <div className="col-md-2">
             <button onClick={()=> handleDelete(_id)} className="btn-danger btn">Delete</button>
+          </div></>
+          }
+          {status === 'Shipped' && <><div className="col-md-2 text-success">
+            <h6>{status}</h6>
           </div>
+          <div className="col-md-2">
+            <button disabled onClick={()=> handleDelete(_id)} className="btn-danger btn">Delete</button>
+          </div></>
+          }
         </div>
       </div>
     );

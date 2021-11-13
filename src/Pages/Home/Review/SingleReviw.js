@@ -4,7 +4,7 @@ import Rating from '@mui/material/Rating';
 const SingleReviw = (props) => {
     const{name, text, img, rate} = props.review;
     return (
-        <div className="carousel-item" data-bs-interval="8000">
+        <div className="carousel-item" data-bs-interval="4000">
             <div className="review-img text-center">
                 <img src={img} alt="" />
             </div>

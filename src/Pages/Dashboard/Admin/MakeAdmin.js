@@ -8,9 +8,8 @@ const MakeAdmin = () => {
         const email = {
             email : data.email
         }
-        console.log(email)
         // Sending Data to the server 
-        fetch('http://localhost:3002/users/admin', {
+        fetch('https://nameless-taiga-42351.herokuapp.com/users/admin', {
             method:'PUT',
             headers:{
                 'content-type' : 'application/json'

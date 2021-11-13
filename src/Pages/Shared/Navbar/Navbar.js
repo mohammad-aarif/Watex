@@ -29,8 +29,7 @@ const Navbar = () => {
                   <img className="profile-img" src={user.photoURL} alt={user.displayName} />
                 </p>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><Link className="dropdown-item" to="/dashboard">Manage Order</Link></li>
-                  <li><Link className="dropdown-item" to="/">Payment</Link></li>
+                  <li><Link className="dropdown-item" to="/dashboard">Dashboard</Link></li>
                   <li><hr className="dropdown-divider" /></li>
                   <li><button onClick={logOut} className="dropdown-item">Log Out</button></li>
                 </ul>

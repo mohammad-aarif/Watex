@@ -12,13 +12,12 @@ const AdminDashboard = () => {
         // Delete Function 
         const handleDelete = (id) => {
             if(window.confirm("Are You Sure?")){
-              const url = `http://localhost:3002/sales/${id}`
+              const url = `https://nameless-taiga-42351.herokuapp.com/sales/${id}`
             fetch(url, {
               method:'DELETE'
             })
             .then(res => res.json())
             .then(data => {
-                console.log(data)
                 if(data.deletedCount){
                     const reamaining = sale.filter(data => data._id !== id);
                     setSale(reamaining)
@@ -33,7 +32,7 @@ const AdminDashboard = () => {
                 saleId: id
             }
             if(window.confirm("Are You Sure?")){
-                const url = `http://localhost:3002/sales/${id}`
+                const url = `https://nameless-taiga-42351.herokuapp.com/sales/${id}`
               fetch(url, {
                 method:'PUT',
                 headers: {
@@ -43,7 +42,6 @@ const AdminDashboard = () => {
               })
               .then(res => res.json())
               .then(data => {
-                  console.log(data)
                   if(data.modifiedCount){
                       const reamaining = sale.filter(data => data._id !== id);
                       setSale(reamaining)
@@ -60,7 +58,7 @@ const AdminDashboard = () => {
                 <div className="col-md-6">
                 <h4 className="text-center">Order Recived</h4>
                     {
-                        pending.map(item => <RecieveOrder key={item._key} handleShip ={handleShip} handleDelete={handleDelete} info={item}></RecieveOrder>)
+                        pending.map(item => <RecieveOrder key={item._id} handleShip ={handleShip} handleDelete={handleDelete} info={item}></RecieveOrder>)
                     }
                 </div>
                 <div className="col-md-6 p">
@@ -82,7 +80,7 @@ const AdminDashboard = () => {
                     </div>
                  </div>
                  {
-                     shipped.map(item => <CompleteOrder key={item.key} info={item}></CompleteOrder>)
+                     shipped.map(item => <CompleteOrder key={item._id} info={item}></CompleteOrder>)
                  }
                 </div>
             </div>

@@ -6,7 +6,7 @@ import { useParams } from 'react-router';
 const ItemDetails = () => {
     const {id} = useParams();
     const [product, setProduct] = useState({});
-    const url = `http://localhost:3002/products/${id}`;
+    const url = `https://nameless-taiga-42351.herokuapp.com/products/${id}`;
     useEffect(() => {
         fetch(url)
         .then(res => res.json())

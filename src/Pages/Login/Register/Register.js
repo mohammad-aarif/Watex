@@ -18,7 +18,7 @@ const Register = () => {
             setError("Password Not Matched!")
         }
     }
-    console.log(user)
+    
     return (
         <div>
             <div className="w-25 py-5 mx-auto">
@@ -33,6 +33,8 @@ const Register = () => {
                 {isLoading && <LinearProgress />}
                     <p className="text-danger text-bold text-center">{error}</p>
                     <p className="py-2">Don't Have an Account? <Link to="/login">Login</Link> </p>
+                {user.email && <div className="alert alert-success"> Registration Successfull</div>}
+                
             </div>
         </div>
     );

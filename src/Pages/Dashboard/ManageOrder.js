@@ -8,7 +8,7 @@ const ManageOrder = () => {
 
     // Fetching Data 
     useEffect(() => {
-        fetch(`http://localhost:3002/sale?email=${user.email}`)
+        fetch(`https://nameless-taiga-42351.herokuapp.com/sale?email=${user.email}`)
         .then(res => res.json())
         .then(data => setSale(data))
     }, [user.email]);
@@ -17,13 +17,12 @@ const ManageOrder = () => {
 
         const handleDelete = (id) => {
           if(window.confirm("Are You Sure?")){
-            const url = `http://localhost:3002/sales/${id}`
+            const url = `https://nameless-taiga-42351.herokuapp.com/sales/${id}`
           fetch(url, {
             method:'DELETE'
           })
           .then(res => res.json())
           .then(data => {
-              console.log(data)
               if(data.deletedCount){
                   const reamaining = sale.filter(data => data._id !== id);
                   setSale(reamaining)

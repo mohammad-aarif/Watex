@@ -10,7 +10,6 @@ const Login = () => {
     const history = useHistory()
     // history.push('/')
     const {googleSignIn, isLoading, isAdmin, signInWithEmail, error} = useAuth();
-    console.log(isAdmin)
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
         signInWithEmail(data.email, data.password, location, history)

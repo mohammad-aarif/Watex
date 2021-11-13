@@ -4,7 +4,7 @@ const useShop = () => {
     const [item, setItem] = useState([])
     const [isProduct, setIsProduct] = useState(true)
     useEffect(() => {
-        fetch('http://localhost:3002/products')
+        fetch('https://nameless-taiga-42351.herokuapp.com/products')
         .then(res => res.json())
         .then(data => {
             setItem(data)

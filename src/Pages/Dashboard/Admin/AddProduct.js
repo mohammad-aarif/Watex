@@ -10,9 +10,8 @@ const AddProduct = () => {
             rating:0,
             ratecount:0
         }
-        console.log(productData)
         // Sending Data to the server 
-        fetch('http://localhost:3002/products', {
+        fetch('https://nameless-taiga-42351.herokuapp.com/products', {
             method:'POST',
             headers:{
                 'content-type' : 'application/json'

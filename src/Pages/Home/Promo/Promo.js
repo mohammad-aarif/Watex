@@ -13,7 +13,7 @@ const Promo = () => {
                     <div className="row">
                         <div className="col-md-12 promo-details">
                             <h2 className="text-enter pt-5 text-light">Get 50% OFF On <br /> Your First Purchase</h2>
-                            <Link className="btn btn-light px-5 mx-auto mb-5">Buy Now</Link>
+                            <Link to='/shop' className="btn btn-light px-5 mx-auto mb-5">Buy Now</Link>
                         </div>
                     </div>
                     <div className="row">

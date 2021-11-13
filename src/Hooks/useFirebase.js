@@ -29,7 +29,6 @@ const useFirebase = () => {
             saveUser(user.displayName , user.email, 'PUT')
             const uri = location?.state?.from || '/';
             history.replace(uri)
-            // console.log(uri)
         }).catch((error) => {
             const errorMessage = error.message;
             setError(errorMessage)
@@ -59,7 +58,6 @@ const useFirebase = () => {
         }).catch((error) => {
 
         });
-        // console.log(uri)
       })
       .catch((error) => {
         const errorMessage = error.message;
@@ -80,7 +78,6 @@ const useFirebase = () => {
           setUser(user)
           const uri = location?.state?.from || '/';
           history.replace(uri)
-          // console.log(uri)
         })
         .catch((error) => {
           const errorMessage = error.message;
@@ -109,7 +106,7 @@ const useFirebase = () => {
         email : email,
         created: new Date()
       }
-      fetch('http://localhost:3002/users', {
+      fetch('https://nameless-taiga-42351.herokuapp.com/users', {
         method: method,
         headers: {
           'content-type': 'application/json'
@@ -120,7 +117,7 @@ const useFirebase = () => {
     }
 
     useEffect(() =>{
-      fetch(`http://localhost:3002/users/${user.email}`)
+      fetch(`https://nameless-taiga-42351.herokuapp.com/users/${user.email}`)
       .then(res => res.json())
       .then(data => setIsAdmin(data.admin))
     }, [user.email])

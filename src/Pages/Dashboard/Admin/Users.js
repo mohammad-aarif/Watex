@@ -5,7 +5,7 @@ const User = () => {
     const[user, setUser] = useState([]);
     // Fetching Data 
     useEffect(() => {
-        fetch(`http://localhost:3002/users`)
+        fetch(`https://nameless-taiga-42351.herokuapp.com/users`)
         .then(res => res.json())
         .then(data => setUser(data))
     }, []);
@@ -14,13 +14,12 @@ const User = () => {
 
         const handleDelete = (id) => {
           if(window.confirm("Are You Sure?")){
-            const url = `http://localhost:3002/sales/${id}`
+            const url = `https://nameless-taiga-42351.herokuapp.com/sales/${id}`
           fetch(url, {
             method:'DELETE'
           })
           .then(res => res.json())
           .then(data => {
-              console.log(data)
               if(data.deletedCount){
                   const reamaining = user.filter(data => data._id !== id);
                   setUser(reamaining)

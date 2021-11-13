@@ -2,8 +2,8 @@ import React from 'react';
 
 const SettingPage = () => {
     return (
-        <div>
-            <h1>This is Setting</h1>
+        <div className="centerized-text">
+            <h4>This Feature will be Added Soon</h4>
         </div>
     );
 };

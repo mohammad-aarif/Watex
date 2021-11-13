@@ -18,10 +18,9 @@ const BookNow = () => {
             status: "Pending",
             date: date
         }
-        console.log(finalData)
 
         // Sending to Server 
-        fetch("http://localhost:3002/sale",{
+        fetch("https://nameless-taiga-42351.herokuapp.com/sale",{
             method: "POST",
             headers: {
                 'content-type' : 'application/json'
